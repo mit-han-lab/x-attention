@@ -109,7 +109,7 @@ bash scripts/run_vllms.sh
 ```
 
 ### Hunyuan Video
-For testing on HunyuanVideo, we used a threshold of 0.9 or 0.95 and a stride of 8. Reproduce the results by adjusting the parameters and running `scripts/run_vllms.sh`.
+For testing on HunyuanVideo, we used a threshold of 0.9 or 0.95 and a stride of 8. Reproduce the results by adjusting the parameters and running `scripts/run_hunyuan.sh`.
 ```bash
 bash scripts/run_hunyuan.sh
 ```
