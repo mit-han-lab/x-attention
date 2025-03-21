@@ -7,7 +7,7 @@
 
 ## Demo
 
-https://github.com/user-attachments/assets/2eec4dfe-0167-4f13-a284-40e8d50a80d8
+https://github.com/user-attachments/assets/fe45d15a-c0a4-4ed1-a21e-79c75075e79f
 
 ## Abstract
 Long-Context Transformer Models (LCTMs) are vital for real-world applications but suffer high computational costs due to attention’s quadratic complexity. 
