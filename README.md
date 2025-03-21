@@ -1,7 +1,7 @@
 # XAttention: Block Sparse Attention with Antidiagonal Scoring
 
 <p align="center">
-    <a href="TBD"><b>Paper</b></a> |
+    <a href="https://arxiv.org/abs/2503.16428"><b>Paper</b></a> |
     <a href="figures/Xattention.pdf"><b>Slides</b></a>
 </p>
 
