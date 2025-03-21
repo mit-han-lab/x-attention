@@ -15,11 +15,11 @@ It introduces a lightweight metric based on antidiagonal sums to efficiently sel
 
 ✨ Check out what Xattention is capable of!
 
-https://github.com/user-attachments/assets/be5e4068-055a-4033-9c4b-9cef18547f3c
+https://github.com/user-attachments/assets/5fd94cfb-1fdd-4cc1-9046-d2637e9d15bb
 
 ### 🪄✨ Let’s reveal the magic behind the Xattention algorithm!
 
-https://github.com/user-attachments/assets/1bc119b7-dc2f-4554-adf7-a250c7616d34
+https://github.com/user-attachments/assets/220b77f0-7bcf-42a4-aa8f-1552d1d169dc
 
 ## Abstract
 Long-Context Transformer Models (LCTMs) are vital for real-world applications but suffer high computational costs due to attention’s quadratic complexity. 
