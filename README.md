@@ -9,7 +9,7 @@
 XAttention is a plug-and-play sparse attention framework for Transformers that speeds up long-context inference by up to 13.5× — without sacrificing accuracy.
 It introduces a lightweight metric based on antidiagonal sums to efficiently select important attention blocks, enabling high sparsity and fast computation.
 
-## Demo
+## ✨ Demo
 
 ### 🎬 Video Generation · 🧠 Video Understanding · 📚 Long Sequences 
 
@@ -17,9 +17,9 @@ It introduces a lightweight metric based on antidiagonal sums to efficiently sel
 
 https://github.com/user-attachments/assets/5fd94cfb-1fdd-4cc1-9046-d2637e9d15bb
 
-### 🪄✨ Let’s reveal the magic behind the Xattention algorithm!
+### ✨ Let’s reveal the magic behind the Xattention algorithm!
 
-https://github.com/user-attachments/assets/220b77f0-7bcf-42a4-aa8f-1552d1d169dc
+https://github.com/user-attachments/assets/b372c9be-7161-45db-803e-2295e20e476b
 
 ## Abstract
 Long-Context Transformer Models (LCTMs) are vital for real-world applications but suffer high computational costs due to attention’s quadratic complexity. 
