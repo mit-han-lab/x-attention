@@ -395,6 +395,6 @@ def Xattention_prefill(
     del query_states
     num_to_compute = (k_block_num + 1) * k_block_num / 2 * num_heads
     
-    print(f"approximated prefilling Computation: {approx_simple_mask.sum() / num_to_compute}")
+    # print(f"approximated prefilling Computation: {approx_simple_mask.sum() / num_to_compute}")
     del approx_simple_mask, attn_sums
     return attn_output

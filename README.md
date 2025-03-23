@@ -19,7 +19,8 @@ https://github.com/user-attachments/assets/5fd94cfb-1fdd-4cc1-9046-d2637e9d15bb
 
 ### ✨ Let’s reveal the magic behind the Xattention algorithm!
 
-https://github.com/user-attachments/assets/b372c9be-7161-45db-803e-2295e20e476b
+https://github.com/user-attachments/assets/a0bca4a0-f233-4a86-a9be-2dd3326d47d0
+
 
 ## Abstract
 Long-Context Transformer Models (LCTMs) are vital for real-world applications but suffer high computational costs due to attention’s quadratic complexity. 
