@@ -13,7 +13,7 @@ It introduces a lightweight metric based on antidiagonal sums to efficiently sel
 
 ### 🎬 Video Generation · 🧠 Video Understanding · 📚 Long Sequences 
 
-✨ Check out what Xattention is capable of!
+Check out what Xattention is capable of!
 
 https://github.com/user-attachments/assets/5c43d39e-bb91-4797-8ae2-050bea1bbc5f
 
