@@ -15,11 +15,12 @@ It introduces a lightweight metric based on antidiagonal sums to efficiently sel
 
 ✨ Check out what Xattention is capable of!
 
-https://github.com/user-attachments/assets/5fd94cfb-1fdd-4cc1-9046-d2637e9d15bb
+https://github.com/user-attachments/assets/5c43d39e-bb91-4797-8ae2-050bea1bbc5f
+
 
 ### ✨ Let’s reveal the magic behind the Xattention algorithm!
 
-https://github.com/user-attachments/assets/a0bca4a0-f233-4a86-a9be-2dd3326d47d0
+https://github.com/user-attachments/assets/9203d744-d00a-40c1-acd6-ec047bb2beac
 
 
 ## Abstract

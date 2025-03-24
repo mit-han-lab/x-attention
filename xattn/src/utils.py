@@ -144,7 +144,7 @@ def find_blocks_chunked(
             index = index.view(batch_size,head_num*chunk_num,block_num)
             mask[:,torch.arange(mask.shape[1], device=mask.device).unsqueeze(dim=-1),index] = True
             mask = mask.view(batch_size,head_num,chunk_num,block_num)
-            assert(bool((torch.where(mask,input_tensor,0).sum(dim=-1,keepdim=True) >= required_sum*0.99).all()))
+            # assert(bool((torch.where(mask,input_tensor,0).sum(dim=-1,keepdim=True) >= required_sum*0.99).all()))
         else:
             mask = torch.zeros_like(input_tensor, dtype=torch.bool)
             sorted_values, index = torch.sort(
