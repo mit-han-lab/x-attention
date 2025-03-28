@@ -18,7 +18,6 @@ output/*
 best_metric/
 config/
 
-eval/HunyuanVideo/*
 xattn/scripts/
 
 test_code/
