@@ -75,13 +75,13 @@ VAE_PATH = {"884-16c-hy": f"{MODEL_BASE}/hunyuan-video-t2v-720p/vae"}
 # Text Encoder
 TEXT_ENCODER_PATH = {
     "clipL": f"{MODEL_BASE}/text_encoder_2",
-    "llm": f"{MODEL_BASE}/llava_text_encoder",
+    "llm": f"{MODEL_BASE}/text_encoder",
 }
 
 # Tokenizer
 TOKENIZER_PATH = {
     "clipL": f"{MODEL_BASE}/text_encoder_2",
-    "llm": f"{MODEL_BASE}/llava_text_encoder",
+    "llm": f"{MODEL_BASE}/text_encoder",
 }
 
 TEXT_PROJECTION = {
