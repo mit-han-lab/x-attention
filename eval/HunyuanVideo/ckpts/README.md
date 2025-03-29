@@ -66,16 +66,10 @@ HunyuanVideo supports different MLLMs (including HunyuanMLLM and open-source MLL
 
 ```shell
 cd HunyuanVideo/ckpts
-huggingface-cli download xtuner/llava-llama-3-8b-v1_1-transformers --local-dir ./llava-llama-3-8b-v1_1-transformers
+huggingface-cli download xtuner/llava-llama-3-8b-v1_1-transformers --local-dir ./llava_text_encoder
 ```
 
-In order to save GPU memory resources for model loading, we separate the language model parts of `llava-llama-3-8b-v1_1-transformers` into `text_encoder`.
-```
-cd HunyuanVideo
-python hyvideo/utils/preprocess_text_encoder_tokenizer_utils.py --input_dir ckpts/llava-llama-3-8b-v1_1-transformers --output_dir ckpts/text_encoder
-```
-
-2. CLIP model (text_encoder_2 folder)
+1. CLIP model (text_encoder_2 folder)
 
 We use [CLIP](https://huggingface.co/openai/clip-vit-large-patch14) provided by [OpenAI](https://openai.com) as another text encoder, users in the community can download this model by the following command
 
