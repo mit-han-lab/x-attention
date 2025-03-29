@@ -304,7 +304,6 @@ class TextEncoder(nn.Module):
         attention_mask = (
             batch_encoding["attention_mask"].to(device) if use_attention_mask else None
         )
-        print(batch_encoding["input_ids"])
         outputs = self.model(
             input_ids=batch_encoding["input_ids"].to(device),
             attention_mask=attention_mask,
