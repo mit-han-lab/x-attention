@@ -138,8 +138,8 @@ def attention(
         v2 = v[:, :, cu_seqlens_kv[1] : cu_seqlens_kv[2]]
         if threshold < 1:
             x1 = Xattention_prefill(
-                k1,
                 q1,
+                k1,
                 v1,
                 stride=stride,
                 norm=1,
