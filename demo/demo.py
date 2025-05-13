@@ -16,7 +16,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     config = FastPrefillConfig(metric = args.metric,stride = args.stride, threshold = args.threshold)
     
-    model, tokenizer = load_model(name_or_path="/NFS/raid0/model/llama3-1048k", fastprefillconfig=config)
+    model, tokenizer = load_model(name_or_path="gradientai/Llama-3-8B-Instruct-Gradient-1048k", fastprefillconfig=config)
     input_ids = generate_prompt(tokenizer,args.len)
     # -------------------
     # 1. Prefill
