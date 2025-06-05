@@ -129,8 +129,8 @@ def new_attention_forward(
             self.threshold = self.threshold.to(key_states.device)
             threshold = self.threshold
             attn_output = Xattention_prefill(
-                key_states,
                 query_states,
+                key_states,
                 value_states,
                 norm=1,
                 stride=8,
