@@ -1,11 +1,11 @@
 from typing import Optional, Tuple
 import torch
-import torch.utils.checkpoint
 from transformers import AutoTokenizer,StaticCache
 from transformers.models.llama.modeling_llama import Cache,LlamaForCausalLM
 from transformers.models.llama.modeling_llama import (
     logging,
 )
+
 from xattn.threshold.llama_threshold import llama_fuse_16,llama_fuse_8,llama_fuse_4
 import flashinfer
 import time
