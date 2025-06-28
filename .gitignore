@@ -1,6 +1,7 @@
 slurm_log/
 models/
 slurm_scripts/
+Block-Sparse-Attention/
 
 eval/RULER/docker
 eval/RULER/scripts/benchmark_root

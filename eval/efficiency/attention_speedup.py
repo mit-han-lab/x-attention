@@ -89,7 +89,7 @@ if __name__ == "__main__":
             except:
                 XATTN_PREFILL = False
             try:
-                Full_prefill(q, k, v, causal=False)
+                Full_prefill(q, k, v)
             except:
                 FULL_PREFILL = False
             try:
