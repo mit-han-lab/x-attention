@@ -153,10 +153,10 @@ CUDA_VISIBLE_DEVICES=<device_idx> python eval/efficiecy/attention_speedup.py
 If you find Xattention useful or relevant to your project and research, please kindly cite our paper:
 
 ```bibtex
-@article{xu2025xattention,
-        title={XAttention: Block Sparse Attention with Antidiagonal Scoring},
-        author={Xu, Ruyi and Xiao, Guangxuan and Huang, Haofeng and Guo, Junxian and Han, Song},
-        journal={arXiv},
-        year={2025}
+@inproceedings{xu2025xattention,
+  title     = {XAttention: Block Sparse Attention with Antidiagonal Scoring},
+  author    = {Xu, Ruyi and Xiao, Guangxuan and Huang, Haofeng and Guo, Junxian and Han, Song},
+  booktitle = {Proceedings of the 42nd International Conference on Machine Learning (ICML)},
+  year      = {2025}
 }
 ```
